@@ -14,3 +14,5 @@ target/
 # Extra
 extent-config.xml
 test-output/
+.gitignore
+BriteERPautomationGroup28.iml
