@@ -10,6 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BrowserUtils {
+
+
     public static String getScreenshot(String name){
 
         String time= new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

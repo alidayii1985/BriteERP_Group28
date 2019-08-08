@@ -12,6 +12,7 @@ public class CRMPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+
     @FindBy(xpath = "//span[@class='oe_menu_text'][contains(text(),'CRM')]")
     public WebElement crmLocator;
 
