@@ -1,6 +1,5 @@
 package com.BriteERP.pages;
 
-
 import com.BriteERP.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -11,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 public class CrmPage {
-
     WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
     public CrmPage(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -103,4 +101,5 @@ public class CrmPage {
 
 
 }
+
 
